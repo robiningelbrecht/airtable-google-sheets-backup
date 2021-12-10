@@ -5,8 +5,8 @@ class App {
   constructor() {
     this.client = new AirtableClient(API_KEY);
     this.syncs = [
-      new AirtableSync('someBaseId', 'someTableId', 'someViewId'),
-      new AirtableSync('someBaseId', 'someTableId', 'someViewId', ['name-of-attachment-field-one', 'name-of-attachment-field-2']),
+      new AirtableSync('someBaseId', 'someTableName', 'someViewName'),
+      new AirtableSync('someBaseId', 'someTableName', 'someViewName', ['name-of-attachment-field-one', 'name-of-attachment-field-2']),
     ];
     this.attachmentSerivce = new AttachmentSerivce(ATTACHMENTS_ROOT_FOLDER_ID);
   }
