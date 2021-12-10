@@ -1,5 +1,5 @@
 This script allows you to backup your Airtable data to Google sheets. It has support for attachment fields as well.
-Feel free to copy and edit the script.
+Feel free to copy and edit the script (Give it a :star: when you do).
 # Usage
 
 1. Copy the files to Google Apps Script
